@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2ec">
+  <meta name="description" content="Camille Martin, photographe de mariage et de famille sur la Côte d’Opale. Des images vivantes, sincères et lumineuses.">
+  <title>Camille Martin · Photographe, Côte d’Opale</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ EN-TÊTE ============ -->
+  <header class="site-header" id="header">
+    <a class="brand" href="#accueil">
+      Camille Martin
+      <small>Photographe · Côte d’Opale</small>
+    </a>
+
+    <button class="menu-toggle" aria-expanded="false" aria-label="Ouvrir le menu">Menu +</button>
+
+    <nav class="nav" id="nav">
+      <a href="#histoires">Les histoires</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#apropos">À propos</a>
+      <a class="nav-contact" href="#contact">Me contacter ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="accueil">
+      <div class="hero-top">
+        <p class="eyebrow">Photographe</p>
+        <p class="eyebrow">
+          Entre mer et lumière<br>
+          Hauts-de-France · France
+        </p>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2200&q=88"
+          alt="Un couple de mariés dans la lumière douce de fin de journée">
+
+        <div class="hero-title">
+          <span class="eyebrow">Des images pour se souvenir</span>
+          <h1>Les jours qui<br><em>restent.</em></h1>
+          <a class="hero-link" href="#histoires">Découvrir mon univers&nbsp; ↓</a>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <span>Des histoires vraies, sans mise en scène</span>
+        <span>01 — 06</span>
+      </div>
+    </section>
+
+    <!-- ============ INTRODUCTION ============ -->
+    <section class="section intro reveal">
+      <div>
+        <p class="eyebrow">Bonjour, je suis Camille</p>
+      </div>
+
+      <div>
+        <h2>Je photographie ce qui se vit, <em>et ce qui se ressent.</em></h2>
+        <div class="intro-copy">
+          Une main qui cherche l’autre, un fou rire qui déborde, un petit rien qui devient tout.
+          Je raconte votre histoire avec simplicité, au bord de la mer ou partout où la vie vous mène.<br>
+          <a class="text-link" href="#apropos">En savoir plus sur moi&nbsp; ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CATÉGORIES ============ -->
+    <section class="section categories" id="histoires">
+
+      <article class="category reveal">
+        <div class="cat-image">
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=1200&q=85"
+            alt="Jeunes mariés sous une lumière dorée">
+        </div>
+        <div class="cat-copy">
+          <span class="cat-count">01 / LES GRANDS OUI</span>
+          <h2 class="serif">Mariage</h2>
+          <p>
+            Une présence discrète et un regard attentif, pour raconter votre journée
+            telle qu’elle s’est vécue : pleine de vie, d’émotions et d’imprévus.
+          </p>
+          <a class="text-link" href="#portfolio" data-filter-link="mariage">Voir les mariages&nbsp; ↗</a>
+          <span class="cat-meta">À vos côtés, des préparatifs à la fête</span>
+        </div>
+      </article>
+
+      <article class="category reveal">
+        <div class="cat-image">
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1000&q=85"
+            alt="Une famille réunie dans un moment tendre">
+        </div>
+        <div class="cat-copy">
+          <span class="cat-count">02 / AU FIL DU TEMPS</span>
+          <h2 class="serif">Famille</h2>
+          <p>
+            Inutile de savoir poser. On se promène, on joue, on discute,
+            et je garde la trace de votre façon bien à vous d’être ensemble.
+          </p>
+          <a class="text-link" href="#portfolio" data-filter-link="famille">Voir les séances famille&nbsp; ↗</a>
+          <span class="cat-meta">En balade, à la maison, au quotidien</span>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="section portfolio" id="portfolio">
+
+      <div class="portfolio-head reveal">
+        <div>
+          <p class="eyebrow">Histoires récentes</p>
+          <h2>Le vrai, en images.</h2>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtrer le portfolio">
+          <button class="active" data-filter="tout">Tout voir</button>
+          <button data-filter="mariage">Mariage</button>
+          <button data-filter="famille">Famille</button>
+        </div>
+      </div>
+
+      <div class="gallery">
+
+        <article class="project reveal" data-category="mariage" data-caption="Jeanne &amp; Thomas · Audresselles">
+          <div class="project-image">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=85"
+              alt="Mariés enlacés lors d’une réception en extérieur">
+          </div>
+          <div class="project-info">
+            <h3>Jeanne &amp; Thomas</h3>
+            <span>Mariage · Audresselles</span>
+          </div>
+        </article>
+
+        <article class="project reveal" data-category="famille" data-caption="Un dimanche avec les Delcourt · Wissant">
+          <div class="project-image">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1476703993599-0035a21b17a9?auto=format&fit=crop&w=1000&q=85"
+              alt="Parents et enfant réunis lors d’une promenade">
+          </div>
+          <div class="project-info">
+            <h3>Un dimanche avec les Delcourt</h3>
+            <span>Famille · Wissant</span>
+          </div>
+        </article>
+
+        <article class="project reveal" data-category="mariage" data-caption="Louise &amp; Martin · Le Touquet">
+          <div class="project-image">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1000&q=85"
+              alt="Un mariage chaleureux célébré en extérieur">
+          </div>
+          <div class="project-info">
+            <h3>Louise &amp; Martin</h3>
+            <span>Mariage · Le Touquet</span>
+          </div>
+        </article>
+
+        <article class="project reveal" data-category="famille" data-caption="La tribu Martin · Côte d’Opale">
+          <div class="project-image">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1000&q=85"
+              alt="Une famille qui partage un moment spontané">
+          </div>
+          <div class="project-info">
+            <h3>La tribu Martin</h3>
+            <span>Famille · Côte d’Opale</span>
+          </div>
+        </article>
+
+        <article class="project reveal" data-category="mariage" data-caption="Margot &amp; Antoine · Hardelot">
+          <div class="project-image">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?auto=format&fit=crop&w=1000&q=85"
+              alt="Un couple de mariés dans un cadre naturel">
+          </div>
+          <div class="project-info">
+            <h3>Margot &amp; Antoine</h3>
+            <span>Mariage · Hardelot</span>
+          </div>
+        </article>
+
+        <article class="project reveal" data-category="famille" data-caption="Les jours de plage · Wimereux">
+          <div class="project-image">
+            <img
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1000&q=85"
+              alt="Une journée à la plage en famille">
+          </div>
+          <div class="project-info">
+            <h3>Les jours de plage</h3>
+            <span>Famille · Wimereux</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="gallery-note">
+        <a class="text-link" href="#contact">Racontons la vôtre&nbsp; ↗</a>
+      </div>
+    </section>
+
+    <!-- ============ À PROPOS ============ -->
+    <section class="section about" id="apropos">
+      <div class="about-image reveal">
+        <img
+          loading="lazy"
+          src="https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Portrait de Camille, photographe sur la Côte d’Opale">
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="eyebrow">Derrière l’objectif</p>
+        <h2>Camille,<br><em>en quelques mots.</em></h2>
+        <p>
+          Je garde les petits mots dans une boîte et je marche volontiers un peu plus loin
+          pour voir la lumière tomber sur la mer. Depuis huit ans, je photographie les gens
+          tels qu’ils sont, avec patience, curiosité et tendresse.
+        </p>
+        <p>
+          Mon terrain de jeu, c’est la Côte d’Opale, ses ciels changeants et ses gens
+          qui aiment fort. Je me déplace là où votre histoire s’écrit.
+        </p>
+        <a class="text-link" href="#contact">Faire connaissance&nbsp; ↗</a>
+      </div>
+    </section>
+
+    <!-- ============ DÉROULÉ ============ -->
+    <section class="section approach">
+
+      <div class="approach-top reveal">
+        <div>
+          <p class="eyebrow" style="color: #b9a694;">Ensemble, simplement</p>
+          <h2>À votre rythme.</h2>
+        </div>
+        <p>
+          Une démarche pensée pour que vous viviez le moment,
+          pendant que je m’occupe d’en garder la trace.
+        </p>
+      </div>
+
+      <div class="steps">
+
+        <article class="step reveal">
+          <span>01 — ON SE RENCONTRE</span>
+          <h3>On prend le temps</h3>
+          <p>
+            Un premier échange, autour d’un café ou au téléphone.
+            J’écoute vos envies, vos idées et vos appréhensions.
+          </p>
+        </article>
+
+        <article class="step reveal">
+          <span>02 — ON VIT L’INSTANT</span>
+          <h3>Vous restez vous-même</h3>
+          <p>
+            Le jour J, je me fonds dans le décor. Quelques indications si besoin,
+            puis je vous laisse profiter de ceux que vous aimez.
+          </p>
+        </article>
+
+        <article class="step reveal">
+          <span>03 — ON S’EN SOUVIENT</span>
+          <h3>Votre histoire, à la maison</h3>
+          <p>
+            Vos photos vous sont livrées dans une galerie privée en ligne,
+            à revoir, partager et imprimer. Des souvenirs faits pour durer.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ TÉMOIGNAGE ============ -->
+    <section class="quote reveal">
+      <div class="quote-mark">“</div>
+      <blockquote>
+        On a l’impression de revivre cette journée. Camille a su voir tout ce qu’on n’avait même pas remarqué.
+      </blockquote>
+      <cite>Élise &amp; Julien · Mariage au Cap Gris-Nez</cite>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <p class="eyebrow">Les belles histoires commencent souvent par un bonjour</p>
+      <h2>Et la vôtre, c’est pour quand&nbsp;?</h2>
+      <p>Dites-moi ce que vous imaginez : date, lieu, envies. Je vous réponds sous deux jours.</p>
+      <a class="contact-button" href="mailto:bonjour@camillemartin.fr?subject=Bonjour%20Camille">Écrire à Camille&nbsp; ↗</a>
+    </section>
+
+  </main>
+
+  <!-- ============ PIED DE PAGE ============ -->
+  <footer class="footer">
+    <a class="brand" href="#accueil">
+      Camille Martin
+      <small>Photographe · Côte d’Opale</small>
+    </a>
+
+    <span class="footer-copy">© 2026 Camille Martin · Mentions légales</span>
+
+    <div class="social">
+      <a href="#contact">Instagram ↗</a>
+      <a href="#accueil">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Aperçu photo">
+    <button class="lightbox-close" aria-label="Fermer">Fermer ×</button>
+    <button class="lightbox-prev" aria-label="Photo précédente">←</button>
+    <img alt="">
+    <button class="lightbox-next" aria-label="Photo suivante">→</button>
+    <div class="lightbox-caption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
